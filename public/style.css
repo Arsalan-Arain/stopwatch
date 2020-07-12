@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+h1{
+    background-color: green;
+    display: inline-block;
+    width: 80px;
+    font-size: 70px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 3px;
+}
+.timerBlock{
+    margin: 50px auto;
+    background-color: black;
+    height: auto;
+    width: 300px;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.btn{
+    background-color: rgb(236, 205, 63);
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(201, 166, 9);
+}
+.btn:focus{
+    outline: none;
+}
